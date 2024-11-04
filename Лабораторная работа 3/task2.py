@@ -10,6 +10,7 @@ def find_common_participants(str1, str2, razdelitl=","):
     intersection_set = set1.intersection(set2)
 
     new_list = list(intersection_set)
+    new_list.sort()
 
     return new_list
 
